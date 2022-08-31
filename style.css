@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(2.jpg) center/cover no-repeat fixed; 
+    font-family: sans-serif;
+}      
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+        
+.container {
+    width: 400px;
+    border: 1px solid black;
+    background-color: #bccad6;
+
+;
+    border-radius: 20px;
+    padding: 20px 10px;
+    height: 400px;
+}
+        
+.heading {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;  
+}
+.heading h2{
+    color: #454140;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+        
+.boxcontainer {
+    display: flex;
+}
+        
+h2 {
+    font-size: 1rem;
+    color: rgb(126, 125, 125);
+    padding: 6px 2px;
+}
+        
+.box1 {
+    width: 50%;
+    padding: 40px 5px;
+}
+        
+.insert,
+#unit {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 3px solid #222;
+}
+        
+#unit {
+    font-size: 1.1rem;
+    margin-top: 4.5px;
+}
+        
+.valcont{
+    margin-top: 20px;
+    padding-bottom: 22px;
+}
+        
+.value {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0;
+    font-size: 1.4rem;
+    border-bottom: 3px solid #222;
+}
+        
+.btn{
+   width: 50%;
+   margin-left: 90px;
+   background: darkcyan;
+   color: #000;
+   padding: 0.7rem 1.3rem;
+   border-radius: 0.5rem;
+}
